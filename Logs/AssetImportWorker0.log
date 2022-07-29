@@ -293,3 +293,87 @@ Received Import Request.
   artifactKey: Guid(a45dc6ff1ffd54797a370299c23eb639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing  using Guid(a45dc6ff1ffd54797a370299c23eb639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000227 seconds  code(3) message(Unknown asset with GUID 'a45dc6ff1ffd54797a370299c23eb639')
   ERROR: Unknown asset with GUID 'a45dc6ff1ffd54797a370299c23eb639'
+========================================================================
+Received Import Request.
+  Time since last request: 541.869962 seconds.
+  path: 
+  artifactKey: Guid(8093aab4088a8406e96c61f841621d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(8093aab4088a8406e96c61f841621d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003241 seconds  code(3) message(Unknown asset with GUID '8093aab4088a8406e96c61f841621d56')
+  ERROR: Unknown asset with GUID '8093aab4088a8406e96c61f841621d56'
+========================================================================
+Received Import Request.
+  Time since last request: 0.006290 seconds.
+  path: Assets/Resources/CardEntityList/Card3.asset
+  artifactKey: Guid(03fbb25fe8e484406a1a117e31ca05ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/CardEntityList/Card3.asset using Guid(03fbb25fe8e484406a1a117e31ca05ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.080841 seconds  code(4) message(Build asset version error: assets/resources/cardentitylist/card3.asset in SourceAssetDB has modification time of '2022-07-26T08:01:46Z' while content on disk has modification time of '2022-07-29T02:03:30Z')
+  ERROR: Build asset version error: assets/resources/cardentitylist/card3.asset in SourceAssetDB has modification time of '2022-07-26T08:01:46Z' while content on disk has modification time of '2022-07-29T02:03:30Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Resources/CardEntityList/Card1.asset
+  artifactKey: Guid(4470be93bee9c485389daeed672c73c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/CardEntityList/Card1.asset using Guid(4470be93bee9c485389daeed672c73c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010010 seconds  code(4) message(Build asset version error: assets/resources/cardentitylist/card1.asset in SourceAssetDB has modification time of '2022-07-26T08:01:46Z' while content on disk has modification time of '2022-07-29T02:08:16Z')
+  ERROR: Build asset version error: assets/resources/cardentitylist/card1.asset in SourceAssetDB has modification time of '2022-07-26T08:01:46Z' while content on disk has modification time of '2022-07-29T02:08:16Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.001642 seconds.
+  path: 
+  artifactKey: Guid(d66918278368d47ec864d899505b1412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(d66918278368d47ec864d899505b1412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000103 seconds  code(3) message(Unknown asset with GUID 'd66918278368d47ec864d899505b1412')
+  ERROR: Unknown asset with GUID 'd66918278368d47ec864d899505b1412'
+========================================================================
+Received Import Request.
+  Time since last request: 8.575301 seconds.
+  path: 
+  artifactKey: Guid(a45dc6ff1ffd54797a370299c23eb639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(a45dc6ff1ffd54797a370299c23eb639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000282 seconds  code(3) message(Unknown asset with GUID 'a45dc6ff1ffd54797a370299c23eb639')
+  ERROR: Unknown asset with GUID 'a45dc6ff1ffd54797a370299c23eb639'
+========================================================================
+Received Import Request.
+  Time since last request: 0.004224 seconds.
+  path: 
+  artifactKey: Guid(d66918278368d47ec864d899505b1412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(d66918278368d47ec864d899505b1412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000118 seconds  code(3) message(Unknown asset with GUID 'd66918278368d47ec864d899505b1412')
+  ERROR: Unknown asset with GUID 'd66918278368d47ec864d899505b1412'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: 
+  artifactKey: Guid(8093aab4088a8406e96c61f841621d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(8093aab4088a8406e96c61f841621d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000067 seconds  code(3) message(Unknown asset with GUID '8093aab4088a8406e96c61f841621d56')
+  ERROR: Unknown asset with GUID '8093aab4088a8406e96c61f841621d56'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Resources/CardEntityList/Card3.asset
+  artifactKey: Guid(03fbb25fe8e484406a1a117e31ca05ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/CardEntityList/Card3.asset using Guid(03fbb25fe8e484406a1a117e31ca05ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.020159 seconds  code(4) message(Build asset version error: assets/resources/cardentitylist/card3.asset in SourceAssetDB has modification time of '2022-07-26T08:01:46Z' while content on disk has modification time of '2022-07-29T02:03:30Z')
+  ERROR: Build asset version error: assets/resources/cardentitylist/card3.asset in SourceAssetDB has modification time of '2022-07-26T08:01:46Z' while content on disk has modification time of '2022-07-29T02:03:30Z'
+========================================================================
+Received Import Request.
+  Time since last request: 216.529549 seconds.
+  path: 
+  artifactKey: Guid(a45dc6ff1ffd54797a370299c23eb639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(a45dc6ff1ffd54797a370299c23eb639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000216 seconds  code(3) message(Unknown asset with GUID 'a45dc6ff1ffd54797a370299c23eb639')
+  ERROR: Unknown asset with GUID 'a45dc6ff1ffd54797a370299c23eb639'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000459 seconds.
+  path: 
+  artifactKey: Guid(8093aab4088a8406e96c61f841621d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(8093aab4088a8406e96c61f841621d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000126 seconds  code(3) message(Unknown asset with GUID '8093aab4088a8406e96c61f841621d56')
+  ERROR: Unknown asset with GUID '8093aab4088a8406e96c61f841621d56'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Resources/CardEntityList/Card3.asset
+  artifactKey: Guid(03fbb25fe8e484406a1a117e31ca05ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/CardEntityList/Card3.asset using Guid(03fbb25fe8e484406a1a117e31ca05ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.018057 seconds  code(4) message(Build asset version error: assets/resources/cardentitylist/card3.asset in SourceAssetDB has modification time of '2022-07-26T08:01:46Z' while content on disk has modification time of '2022-07-29T02:21:12Z')
+  ERROR: Build asset version error: assets/resources/cardentitylist/card3.asset in SourceAssetDB has modification time of '2022-07-26T08:01:46Z' while content on disk has modification time of '2022-07-29T02:21:12Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Resources/CardEntityList/Card1.asset
+  artifactKey: Guid(4470be93bee9c485389daeed672c73c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/CardEntityList/Card1.asset using Guid(4470be93bee9c485389daeed672c73c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.002484 seconds  code(4) message(Build asset version error: assets/resources/cardentitylist/card1.asset in SourceAssetDB has modification time of '2022-07-26T08:01:46Z' while content on disk has modification time of '2022-07-29T02:21:12Z')
+  ERROR: Build asset version error: assets/resources/cardentitylist/card1.asset in SourceAssetDB has modification time of '2022-07-26T08:01:46Z' while content on disk has modification time of '2022-07-29T02:21:12Z'

@@ -15,7 +15,7 @@ MonoBehaviour:
   cardID: 1
   name: Gunner
   lore: "\u3064\u3088\u3044"
-  cost: 1
-  power: 1000
+  cost: 2
+  power: 1500
   icon: {fileID: 21300000, guid: a32eb60562a87cc41b5a9248cf83bf8b, type: 3}
   addNode: 01000000
