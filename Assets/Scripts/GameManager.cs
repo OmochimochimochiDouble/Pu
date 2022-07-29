@@ -10,13 +10,13 @@ public class GameManager : MonoBehaviour
     [SerializeField] UIManager uIManager;
 
     [SerializeField] CardController cardPrefab;
-    [SerializeField] Transform playerLeader, playerHand, playerField, enemyField, enemyHand;
+    [SerializeField] public Transform playerLeader, playerHand, playerField, enemyField, enemyHand;
     [SerializeField] Text playerLeaderHPText;
     [SerializeField] Text enemyLeaderHPText;
     [SerializeField] Text playerManaPointText;
     [SerializeField] Text playerDefaultManaPointText;
 
-    [SerializeField] List<int> playerDeck, enemyDeck;
+    [SerializeField] public List<int> playerDeck, enemyDeck;
 
     public bool isPlayerTurn = true; // プレイヤーのターンから始まる, 全体から参照可能
     public bool isGameTime = true; // ゲームを進行しても構わないかどうかをここで設定, 勝利時にオフ
@@ -39,17 +39,13 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    void Start() // 読み込み時のみ
+    public void Start() // 読み込み時のみ
     {
         StartGame();
     }
-    void StartGame() // 初期値の設定 
+    public void StartGame() // 初期値の設定
     {
-        playerDeck = new List<int>()
-            { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3 };
         playerDeck = playerDeck.OrderBy ( a => Guid.NewGuid () ).ToList ();
-        enemyDeck = new List<int>()
-            { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3 };
         enemyDeck = enemyDeck.OrderBy ( a => Guid.NewGuid () ).ToList ();
 
         enemyLeaderHP = 20000;
@@ -81,7 +77,7 @@ public class GameManager : MonoBehaviour
             card.Init(cardID, false);
         }
     }
-    void DrawCard(Transform hand, List<int> deck) // カードを引く
+    public void DrawCard(Transform hand, List<int> deck) // カードを引く
     {
         // デッキがないなら引かない
         if (deck.Count == 0)
@@ -105,9 +101,8 @@ public class GameManager : MonoBehaviour
     {
         for (int i = 0; i < 3; i++)
         {
-            // おたがいに初期手札を三枚ずつ配る
+            // プレイヤーに初期手札を三枚配る
             DrawCard(playerHand, playerDeck);
-            DrawCard(enemyHand, enemyDeck);
         }
     }
     IEnumerator TurnCalc() // ターンを管理する
@@ -163,6 +158,7 @@ public class GameManager : MonoBehaviour
 
         yield return new WaitForSeconds(0.4f);
 
+        DrawCard(enemyHand, enemyDeck); // 自分のデッキから手札にカードを一枚加える
         DrawCard(enemyHand, enemyDeck); // 自分のデッキから手札にカードを一枚加える
 
         enemyHandCardList = enemyHand.GetComponentsInChildren<CardController>();

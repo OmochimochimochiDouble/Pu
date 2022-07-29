@@ -1,0 +1,295 @@
+Unity Editor version:    2021.3.2f1 (d6360bedb9a0)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.2 (Build 21D49)
+Darwin version:          21.3.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/kawakatsuryuto/Pu
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58656
+Successfully changed project path to: /Users/kawakatsuryuto/Pu
+/Users/kawakatsuryuto/Pu
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 504.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.2f1 (d6360bedb9a0)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/kawakatsuryuto/Pu/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56096
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.2f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001224 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 245.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.028 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3030ms)
+		BeginReloadAssembly (312ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (7ms)
+		EndReloadAssembly (2102ms)
+			LoadAssemblies (305ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (268ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (69ms)
+			SetupLoadedEditorAssemblies (1499ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (42ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (246ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (913ms)
+				ProcessInitializeOnLoadMethodAttributes (286ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003309 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/kawakatsuryuto/Pu/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/kawakatsuryuto/Pu/Library/PackageCache/com.unity.visualscripting@1.7.6/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 252.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.352 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5359ms)
+		BeginReloadAssembly (611ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (121ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (71ms)
+		EndReloadAssembly (4153ms)
+			LoadAssemblies (283ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (634ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (123ms)
+			SetupLoadedEditorAssemblies (2768ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (24ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (253ms)
+				BeforeProcessingInitializeOnLoad (498ms)
+				ProcessInitializeOnLoadAttributes (1737ms)
+				ProcessInitializeOnLoadMethodAttributes (253ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.2f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 1.00 seconds
+Refreshing native plugins compatible for Editor in 2.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4067 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (200.9 KB). Loaded Objects now: 4522.
+Memory consumption went from 261.6 MB to 261.5 MB.
+Total: 42.319792 ms (FindLiveObjects: 1.080125 ms CreateObjectMapping: 0.812375 ms MarkObjects: 37.394542 ms  DeleteObjects: 3.022375 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1240711.156940 seconds.
+  path: Assets/Resources/CardEntityList/Card2.asset
+  artifactKey: Guid(fd871713ca2e94841ad0faf61cf2bfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/CardEntityList/Card2.asset using Guid(fd871713ca2e94841ad0faf61cf2bfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 1.367147 seconds  code(4) message(Build asset version error: assets/resources/cardentitylist/card2.asset in SourceAssetDB has modification time of '2022-07-26T08:01:46Z' while content on disk has modification time of '2022-07-29T02:03:30Z')
+  ERROR: Build asset version error: assets/resources/cardentitylist/card2.asset in SourceAssetDB has modification time of '2022-07-26T08:01:46Z' while content on disk has modification time of '2022-07-29T02:03:30Z'
+========================================================================
+Received Import Request.
+  Time since last request: 9.440764 seconds.
+  path: 
+  artifactKey: Guid(d66918278368d47ec864d899505b1412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(d66918278368d47ec864d899505b1412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003675 seconds  code(3) message(Unknown asset with GUID 'd66918278368d47ec864d899505b1412')
+  ERROR: Unknown asset with GUID 'd66918278368d47ec864d899505b1412'
+========================================================================
+Received Import Request.
+  Time since last request: 0.003389 seconds.
+  path: Assets/Resources/CardEntityList/Card3.asset
+  artifactKey: Guid(03fbb25fe8e484406a1a117e31ca05ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/CardEntityList/Card3.asset using Guid(03fbb25fe8e484406a1a117e31ca05ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.042346 seconds  code(4) message(Build asset version error: assets/resources/cardentitylist/card3.asset in SourceAssetDB has modification time of '2022-07-26T08:01:46Z' while content on disk has modification time of '2022-07-29T02:03:30Z')
+  ERROR: Build asset version error: assets/resources/cardentitylist/card3.asset in SourceAssetDB has modification time of '2022-07-26T08:01:46Z' while content on disk has modification time of '2022-07-29T02:03:30Z'
+========================================================================
+Received Import Request.
+  Time since last request: 3.622555 seconds.
+  path: 
+  artifactKey: Guid(8093aab4088a8406e96c61f841621d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(8093aab4088a8406e96c61f841621d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000253 seconds  code(3) message(Unknown asset with GUID '8093aab4088a8406e96c61f841621d56')
+  ERROR: Unknown asset with GUID '8093aab4088a8406e96c61f841621d56'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/Resources/CardEntityList/Card3.asset
+  artifactKey: Guid(03fbb25fe8e484406a1a117e31ca05ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/CardEntityList/Card3.asset using Guid(03fbb25fe8e484406a1a117e31ca05ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.019544 seconds  code(4) message(Build asset version error: assets/resources/cardentitylist/card3.asset in SourceAssetDB has modification time of '2022-07-26T08:01:46Z' while content on disk has modification time of '2022-07-29T02:03:30Z')
+  ERROR: Build asset version error: assets/resources/cardentitylist/card3.asset in SourceAssetDB has modification time of '2022-07-26T08:01:46Z' while content on disk has modification time of '2022-07-29T02:03:30Z'
+========================================================================
+Received Import Request.
+  Time since last request: 5.259479 seconds.
+  path: 
+  artifactKey: Guid(d66918278368d47ec864d899505b1412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(d66918278368d47ec864d899505b1412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000338 seconds  code(3) message(Unknown asset with GUID 'd66918278368d47ec864d899505b1412')
+  ERROR: Unknown asset with GUID 'd66918278368d47ec864d899505b1412'
+========================================================================
+Received Import Request.
+  Time since last request: 0.003472 seconds.
+  path: Assets/Resources/CardEntityList/Card3.asset
+  artifactKey: Guid(03fbb25fe8e484406a1a117e31ca05ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/CardEntityList/Card3.asset using Guid(03fbb25fe8e484406a1a117e31ca05ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008042 seconds  code(4) message(Build asset version error: assets/resources/cardentitylist/card3.asset in SourceAssetDB has modification time of '2022-07-26T08:01:46Z' while content on disk has modification time of '2022-07-29T02:03:30Z')
+  ERROR: Build asset version error: assets/resources/cardentitylist/card3.asset in SourceAssetDB has modification time of '2022-07-26T08:01:46Z' while content on disk has modification time of '2022-07-29T02:03:30Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: 
+  artifactKey: Guid(a45dc6ff1ffd54797a370299c23eb639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(a45dc6ff1ffd54797a370299c23eb639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000130 seconds  code(3) message(Unknown asset with GUID 'a45dc6ff1ffd54797a370299c23eb639')
+  ERROR: Unknown asset with GUID 'a45dc6ff1ffd54797a370299c23eb639'
+========================================================================
+Received Import Request.
+  Time since last request: 20.008141 seconds.
+  path: Assets/Resources/CardEntityList/Card1.asset
+  artifactKey: Guid(4470be93bee9c485389daeed672c73c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/CardEntityList/Card1.asset using Guid(4470be93bee9c485389daeed672c73c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.017032 seconds  code(4) message(Build asset version error: assets/resources/cardentitylist/card1.asset in SourceAssetDB has modification time of '2022-07-26T08:01:46Z' while content on disk has modification time of '0001-01-01T00:00:00Z')
+  ERROR: Build asset version error: assets/resources/cardentitylist/card1.asset in SourceAssetDB has modification time of '2022-07-26T08:01:46Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: 
+  artifactKey: Guid(8093aab4088a8406e96c61f841621d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(8093aab4088a8406e96c61f841621d56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000092 seconds  code(3) message(Unknown asset with GUID '8093aab4088a8406e96c61f841621d56')
+  ERROR: Unknown asset with GUID '8093aab4088a8406e96c61f841621d56'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Resources/CardEntityList/Card2.asset
+  artifactKey: Guid(fd871713ca2e94841ad0faf61cf2bfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/CardEntityList/Card2.asset using Guid(fd871713ca2e94841ad0faf61cf2bfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008018 seconds  code(4) message(Build asset version error: assets/resources/cardentitylist/card2.asset in SourceAssetDB has modification time of '2022-07-26T08:01:46Z' while content on disk has modification time of '2022-07-29T02:03:30Z')
+  ERROR: Build asset version error: assets/resources/cardentitylist/card2.asset in SourceAssetDB has modification time of '2022-07-26T08:01:46Z' while content on disk has modification time of '2022-07-29T02:03:30Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.001514 seconds.
+  path: 
+  artifactKey: Guid(a45dc6ff1ffd54797a370299c23eb639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(a45dc6ff1ffd54797a370299c23eb639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000069 seconds  code(3) message(Unknown asset with GUID 'a45dc6ff1ffd54797a370299c23eb639')
+  ERROR: Unknown asset with GUID 'a45dc6ff1ffd54797a370299c23eb639'
+========================================================================
+Received Import Request.
+  Time since last request: 15.746422 seconds.
+  path: Assets/Resources/CardEntityList/Card1.asset
+  artifactKey: Guid(4470be93bee9c485389daeed672c73c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/CardEntityList/Card1.asset using Guid(4470be93bee9c485389daeed672c73c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.023908 seconds  code(4) message(Build asset version error: assets/resources/cardentitylist/card1.asset in SourceAssetDB has modification time of '2022-07-26T08:01:46Z' while content on disk has modification time of '2022-07-29T02:08:16Z')
+  ERROR: Build asset version error: assets/resources/cardentitylist/card1.asset in SourceAssetDB has modification time of '2022-07-26T08:01:46Z' while content on disk has modification time of '2022-07-29T02:08:16Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000468 seconds.
+  path: Assets/Resources/CardEntityList/Card2.asset
+  artifactKey: Guid(fd871713ca2e94841ad0faf61cf2bfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/CardEntityList/Card2.asset using Guid(fd871713ca2e94841ad0faf61cf2bfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.004173 seconds  code(4) message(Build asset version error: assets/resources/cardentitylist/card2.asset in SourceAssetDB has modification time of '2022-07-26T08:01:46Z' while content on disk has modification time of '2022-07-29T02:03:30Z')
+  ERROR: Build asset version error: assets/resources/cardentitylist/card2.asset in SourceAssetDB has modification time of '2022-07-26T08:01:46Z' while content on disk has modification time of '2022-07-29T02:03:30Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.002094 seconds.
+  path: 
+  artifactKey: Guid(a45dc6ff1ffd54797a370299c23eb639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(a45dc6ff1ffd54797a370299c23eb639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000121 seconds  code(3) message(Unknown asset with GUID 'a45dc6ff1ffd54797a370299c23eb639')
+  ERROR: Unknown asset with GUID 'a45dc6ff1ffd54797a370299c23eb639'
+========================================================================
+Received Import Request.
+  Time since last request: 10.038024 seconds.
+  path: Assets/Resources/CardEntityList/Card1.asset
+  artifactKey: Guid(4470be93bee9c485389daeed672c73c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/CardEntityList/Card1.asset using Guid(4470be93bee9c485389daeed672c73c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.037482 seconds  code(4) message(Build asset version error: assets/resources/cardentitylist/card1.asset in SourceAssetDB has modification time of '2022-07-26T08:01:46Z' while content on disk has modification time of '2022-07-29T02:08:16Z')
+  ERROR: Build asset version error: assets/resources/cardentitylist/card1.asset in SourceAssetDB has modification time of '2022-07-26T08:01:46Z' while content on disk has modification time of '2022-07-29T02:08:16Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Resources/CardEntityList/Card2.asset
+  artifactKey: Guid(fd871713ca2e94841ad0faf61cf2bfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/CardEntityList/Card2.asset using Guid(fd871713ca2e94841ad0faf61cf2bfd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.003155 seconds  code(4) message(Build asset version error: assets/resources/cardentitylist/card2.asset in SourceAssetDB has modification time of '2022-07-26T08:01:46Z' while content on disk has modification time of '2022-07-29T02:03:30Z')
+  ERROR: Build asset version error: assets/resources/cardentitylist/card2.asset in SourceAssetDB has modification time of '2022-07-26T08:01:46Z' while content on disk has modification time of '2022-07-29T02:03:30Z'
+========================================================================
+Received Import Request.
+  Time since last request: 0.003153 seconds.
+  path: 
+  artifactKey: Guid(a45dc6ff1ffd54797a370299c23eb639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(a45dc6ff1ffd54797a370299c23eb639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000227 seconds  code(3) message(Unknown asset with GUID 'a45dc6ff1ffd54797a370299c23eb639')
+  ERROR: Unknown asset with GUID 'a45dc6ff1ffd54797a370299c23eb639'

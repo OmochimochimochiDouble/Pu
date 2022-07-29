@@ -38,6 +38,32 @@ public class CardController : MonoBehaviour
                 Debug.Log("速攻");
                 model.canAttack = true;
             }
+            if(model.addNode.IndexOf(2) >= 0)
+            {
+                Debug.Log("ドロー1");
+            	if (GameManager.instance.isPlayerTurn == true) GameManager.instance.DrawCard(GameManager.instance.playerHand, GameManager.instance.playerDeck);
+				else GameManager.instance.DrawCard(GameManager.instance.enemyHand, GameManager.instance.enemyDeck);
+            }
+            if(model.addNode.IndexOf(3) >= 0)
+            {
+                Debug.Log("ドロー2");
+            	if (GameManager.instance.isPlayerTurn == true) {
+					GameManager.instance.DrawCard(
+						GameManager.instance.playerHand, GameManager.instance.playerDeck
+					);
+					GameManager.instance.DrawCard(
+						GameManager.instance.playerHand, GameManager.instance.playerDeck
+					);
+				}
+				else {
+					GameManager.instance.DrawCard(
+						GameManager.instance.enemyHand, GameManager.instance.enemyDeck
+					);
+					GameManager.instance.DrawCard(
+						GameManager.instance.enemyHand, GameManager.instance.enemyDeck
+					);
+				}
+            }
         }
         
         //canUsePanelとcanAttackPanelを現在の状態に適応する
